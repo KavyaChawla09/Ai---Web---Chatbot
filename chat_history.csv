@@ -1,0 +1,147 @@
+chat_no,timestamp,question,answer,question_words,answer_words,response_time_sec
+1,2026-10-23 13:06:22,hi,"Hello! How can I help you today? 
+
+We can work on homework, practice a subject, or learn something new. What are you studying?",1,23,87.51
+2,2026-10-23 13:09:06,What is machine learning?,"**Machine learning** is a way of teaching computers to learn from experience, just like humans do.
+
+Usually, a programmer writes strict rules for a computer to follow. But with machine learning, we don't give the computer rules. Instead, we give it lots of **examples** (data). The computer finds patterns on its own.
+
+### A Quick Example:
+
+Imagine teaching a computer to recognize a **cat**:
+
+1. **Old way:** You have to write rules: *""It has two pointy ears, whiskers, and fur.""* (This is hard because not all cats look the same!)
+2. **Machine learning way:** You show the computer 10,000 photos of cats and 10,000 photos of other things. The computer learns what a cat looks like by finding patterns in the pictures.
+
+### Where do you see it every day?
+
+* **YouTube or Netflix:** Suggesting videos you might like.
+* **Email:** Blocking spam messages automatically.
+* **Smartphones:** Unlocking with your face.
+
+In short: **Machine learning helps computers get smarter by practicing with data!**",4,163,130.98
+3,2026-10-23 13:17:51,Explain Python lists,"A **Python list** is like a shopping list or a container. It lets you store multiple items together in one place.
+
+You make a list by putting items inside square brackets `[ ]`, separated by commas.
+
+---
+
+### A Simple Example:
+
+Here is a list of fruits:
+
+```python
+fruits = [""apple"", ""banana"", ""orange""]
+```
+
+You can also make a list of numbers:
+
+```python
+scores = [10, 8, 9, 5]
+```
+
+---
+
+### Important Things to Know:
+
+1. **Computers start counting at 0.** 
+   The first item is at position `0`, the second is at `1`, and so on.
+
+   ```python
+   fruits = [""apple"", ""banana"", ""orange""]
+   print(fruits[0])  # This prints: apple
+   print(fruits[1])  # This prints: banana
+```
+
+2. **You can add new items.**
+   Use `.append()` to add something to the end of the list.
+
+   ```python
+   fruits.append(""grape"")
+   print(fruits)  # Result: [""apple"", ""banana"", ""orange"", ""grape""]
+```
+
+3. **You can change items.**
+   Lists are flexible. You can replace an item easily.
+
+   ```python
+   fruits[0] = ""strawberry""
+   print(fruits)  # Result: [""strawberry"", ""banana"", ""orange"", ""grape""]
+```
+
+### Summary:
+* Lists use **square brackets `[ ]`**.
+* They keep items in **order**.
+* They are great for saving groups of related data!",3,192,190.79
+4,2026-10-23 14:22:15,Explain Python lists,"A **list** in Python is like a container. You can use it to store many items together in one place. 
+
+Think of it like a shopping list or a pencil case.
+
+---
+
+### 1. How to make a list
+You make a list by putting items inside **square brackets `[]`**, separated by commas.
+
+```python
+fruits = [""apple"", ""banana"", ""orange""]
+numbers = [1, 2, 3, 4, 5]
+```
+
+A list can also mix different types of data:
+```python
+mixed_list = [""Sam"", 12, True]
+```
+
+---
+
+### 2. How to get items from a list
+Python counts from **0**, not 1! The position of an item is called its **index**.
+
+```python
+fruits = [""apple"", ""banana"", ""orange""]
+
+print(fruits[0])  # Prints: apple
+print(fruits[1])  # Prints: banana
+print(fruits[2])  # Prints: orange
+```
+
+---
+
+### 3. Changing a list
+Lists are flexible. You can change them anytime.
+
+* **Change an item:**
+  ```python
+  fruits[0] = ""grape""
+  print(fruits)  # Now it is: ['grape', 'banana', 'orange']
+  ```
+
+* **Add an item (at the end):**
+  ```python
+  fruits.append(""mango"")
+  print(fruits)  # Now it is: ['grape', 'banana', 'orange', 'mango']
+  ```
+
+* **Remove an item:**
+  ```python
+  fruits.remove(""banana"")
+  print(fruits)  # Now it is: ['grape', 'orange', 'mango']
+  ```
+
+---
+
+### 4. Find the length of a list
+Use the `len()` function to count how many items are inside:
+
+```python
+fruits = [""apple"", ""banana"", ""orange""]
+print(len(fruits))  # Prints: 3
+```
+
+---
+
+### Quick Summary
+* Lists hold multiple items.
+* They use square brackets: `[]`.
+* Counting starts at `0`.
+* You can add, change, and remove items anytime!",3,252,105.15
